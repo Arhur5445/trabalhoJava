@@ -14,7 +14,7 @@ public class GeralUtil {
                 .findFirst().orElse(null);
 
         if (existente != null) {
-            // Fluxo de Alteração
+            
             System.out.print("Novo nome: "); existente.setNome(sc.nextLine());
             System.out.print("Novo Tipo (Cliente/Fornecedor/Ambos): "); existente.setTipoPessoa(sc.nextLine());
             System.out.print("Está ativo (Sim/Nao): "); existente.setAtivo(GeralUtil.retornaBoolean("Sim", "Nao", sc.nextLine()));
@@ -29,7 +29,7 @@ public class GeralUtil {
 
             Pessoa novaPessoa = new Pessoa(codigo, nome, tipo, ativo);
 
-            // Cadastro de endereço obrigatório vinculado à pessoa
+            
             System.out.println("\n--- Cadastro de Endereço ---");
             System.out.print("CEP: "); String cep = sc.nextLine();
             System.out.print("Logradouro: "); String logr = sc.nextLine();
