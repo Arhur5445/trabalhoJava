@@ -1,0 +1,5 @@
+=== SISTEMA DE CADASTRO ===
+1 - Cadastrar / Alterar Pessoa
+2 - Listar Pessoas e Endereços
+5 - Salvar e Sair
+Escolha a opção:
